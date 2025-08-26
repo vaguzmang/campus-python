@@ -32,6 +32,6 @@ elif (clima == "lluvioso" or clima == "nublado") and presupuesto > 200000:
 elif clima == "nevado" and presupuesto > 200000:
     print(f"¡Excelente, {nombre}! Con un gran presupuesto y nevando, ¡un día completo de ski en la montaña!")
 
-else:
+else:  
     
-    print(f"Lo siento {nombre}, no tengo un plan específico para la combinación de '{clima}' y un presupuesto de {presupuesto}.")
+    print(f"Lo  siento {nombre}, no tengo un plan específico para la combinación de '{clima}' y un presupuesto de {presupuesto}.")
