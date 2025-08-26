@@ -1,0 +1,21 @@
+import os
+import random
+
+x=random.randint(1,10)
+print(x)
+
+isActive=True
+while isActive:
+
+    os.system("clear")
+    print("\nBIENVENIDO AL PROGRAMA DE ADIVINAR UN NUMERO 1 Y 10")
+
+    numero=int(input("ingrese el numero que cree es el numero aleatorio"))
+
+    if numero ==x:
+        print("Felicidades, adivinaste el numero")
+        isActive=False
+        input()
+    else:
+        print(f"lo siento, el numero es {x}")
+        input()
